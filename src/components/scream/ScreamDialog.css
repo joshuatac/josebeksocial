@@ -1,0 +1,29 @@
+.scream-view {
+  width: 100px;
+
+  object-fit: contain;
+  display: grid;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.userhandle {
+  margin: auto !important;
+}
+.grid-column {
+  width: 250px !important;
+  display: grid !important;
+  align-content: center !important;
+  justify-items: center !important;
+  justify-content: center !important;
+  margin-left: 50px;
+}
+
+.dialog {
+  width: 250px !important;
+}
+.spinner {
+  text-align: center;
+  margin-left: 150px;
+  margin-bottom: 30px;
+}

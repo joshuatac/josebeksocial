@@ -1,0 +1,65 @@
+html,
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  background: rgb(245, 245, 245);
+}
+
+.container {
+  margin: 80px auto 0px auto;
+  max-width: 750px;
+}
+
+.nav-container {
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav {
+  width: 100% !important;
+  background: red;
+}
+
+.white {
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 480px) {
+  html,
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+      "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+      "Helvetica Neue", sans-serif;
+    background: rgb(245, 245, 245);
+  }
+
+  .container {
+    margin: 80px auto 0px auto;
+    max-width: 480px;
+  }
+
+  .nav-container {
+    margin: auto;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .nav {
+    width: 100% !important;
+    background: #4267B2 !important;
+  }
+
+  .white {
+    color: #ffffff;
+  }
+  .spinner{
+    padding: 50px;
+    margin: 0 auto;
+  }
+}

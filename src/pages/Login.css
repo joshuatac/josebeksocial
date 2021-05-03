@@ -1,0 +1,74 @@
+.hero {
+  height: 100%;
+  width: 100%;
+  background: #4267b2;
+}
+
+.form-box {
+  width: 380px;
+  height: 350px;
+  margin: 6% auto;
+  background: #ffffff;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.register{
+  height: 480px;
+}
+
+.button-box {
+  width: 220px;
+  margin: 35px auto;
+  box-shadow: 0 0 20px 9px #4267b2;
+  border-radius: 30px;
+}
+
+.button-box > h2 {
+  text-align: center;
+  padding: 10px;
+  text-transform: uppercase;
+  color: #4267b2;
+}
+
+.input-group {
+  top: 180px;
+  width: 280px;
+  transition: 0.5s;
+  margin: auto;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px 0;
+  margin: 5px 0;
+  border-left: 0;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 1px solid #999;
+  outline: none;
+  background: transparent;
+  margin-top: 10px;
+}
+
+.submit-btn {
+  width: 85%;
+  padding: 10px 30px;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+  border: 0;
+  outline: none;
+  background: #4267b2;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 12px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+
+.form-box > p{
+  color:  #4267b2;
+  text-align: center;
+}

@@ -1,0 +1,175 @@
+.scream-container {
+  width: 99.8%;
+  margin-top: 15px;
+  border-radius: 0px;
+  background-color: #ffffff;
+  box-shadow: 0px 5px 7px -7px rgba(0, 0, 0, 0.75);
+  border: 1px solid #046aa5;
+}
+
+.scream-top {
+  display: flex;
+  position: relative;
+  align-items: center;
+  padding: 10px;
+  margin-top: -15px;
+}
+
+.scream-avatar {
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.scream-topInfo > h3 {
+  font-size: 13px;
+}
+
+.scream-topInfo > p {
+  font-size: small;
+  color: gray;
+  margin-top: -15px;
+}
+
+.scream-bottom {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 15px 25px;
+  margin-left: -17px;
+}
+
+.scream-bottom > p {
+  margin-top: -40px;
+  margin-bottom: -10px;
+  text-align: justify;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+    font-size: 14px;
+}
+
+.scream-options {
+  border-top: 1px solid lightgray;
+  display: flex;
+  justify-content: space-evenly;
+  color: gray;
+  cursor: pointer;
+
+}
+
+.scream-option {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+
+.scream-option > p {
+ font-size: 12px;
+}
+
+.scream-option:hover {
+  background-color: #eff2f5;
+  border-radius: 5px;
+}
+
+.scream {
+  width: 750px;
+}
+
+.screams-card {
+  width: 99%;
+  background: #d4d3d3;
+  height: 100%;
+  display: grid;
+  margin-top: 20px;
+}
+
+.screams-user {
+  width: 100%;
+}
+
+.userImage {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+.user-name {
+  float: right;
+  width: 80%;
+}
+
+.user-name > h3 {
+  font-size: 10px;
+  text-transform: capitalize;
+  color: #046aa5;
+}
+
+.user-name > h5 {
+  font-size: 8px;
+  color: #3b3a3a;
+  margin-top: -16px;
+}
+
+.user-image {
+  float: left;
+  width: 10%;
+}
+
+.scream-body {
+  width: 96%;
+  margin-left: 10px;
+  font-size: 10px;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  font-weight: 400;
+  font-family: sans-serif;
+  text-align: justify;
+  line-height: 20px;
+}
+
+.user-engage {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  padding: 10px;
+}
+
+.user-like {
+  width: 30%;
+  border-radius: 50px;
+  float: left;
+  background: #046aa5;
+  display: flex;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.icons {
+  margin-left: 40px;
+  color: #ffffff;
+}
+.count {
+  margin-left: 10px;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.user-comment {
+  width: 30%;
+  border-radius: 50px;
+  float: right;
+  background: #046aa5;
+  display: flex;
+}
+
+.delete-display {
+  width: 60%;
+  display: flex;
+}
+
+.delete-display > p {
+  margin-bottom: 5px;
+}

@@ -1,0 +1,25 @@
+.comment-image {
+  width: 50px;
+  height: 100;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.comment-data {
+  margin-left: 20px;
+}
+
+.displayName {
+  font-size: 14px !important;
+  color: green !important;
+  font-weight: bold;
+}
+
+.comments-body {
+  font-size: 14px !important;
+  color: #000000 !important;
+}
+
+
+.comment-time{
+    font-size: 10px !important;
+}

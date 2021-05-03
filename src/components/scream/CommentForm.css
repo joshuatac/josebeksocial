@@ -1,0 +1,23 @@
+
+.form-input{
+    width: 280px;
+    padding: 5px;
+    margin-bottom: 15px;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    border-bottom: 1px solid green;
+    outline: none;
+}
+
+.button-comment{
+    border: none;
+    padding: 5px;
+    background: green;
+    float: right;
+}
+
+.label-comment{
+    font-size: 14px;
+    margin-bottom: -20px;
+}

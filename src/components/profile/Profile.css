@@ -1,0 +1,88 @@
+.image-container > img {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.image-container {
+  width: 100%;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+
+.profile-card {
+  margin-left: 7px !important;
+  border-radius: 10px;
+  margin-top: 20px !important;
+  width: 97%;
+  margin: auto;
+  background: #ffffff;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+.info {
+  color: #046aa5;
+  margin-right: 16px;
+}
+
+.main-container {
+  margin-top: -20px;
+  padding: 10px;
+}
+
+.display-wrapper {
+  display: flex;
+  width: 100%;
+}
+
+.profile-wrapper {
+  margin-top: -10px;
+  display: flex;
+  padding: 10px;
+}
+
+.right > a {
+  color: #000000;
+}
+
+.profile-button {
+  background: #046aa5;
+  margin: 10px;
+  margin-left: 25px;
+  color: #ffffff;
+  border: none;
+  padding: 5px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.red:hover {
+  background-color: red;
+}
+.green:hover {
+  background-color: green;
+}
+
+.title {
+  display: grid;
+  margin-top: -10px;
+  justify-content: center;
+}
+
+.title > h2 {
+  font-size: 20px;
+}
+
+.createIcon {
+  color: green;
+}
+
+.button:hover {
+  border: none;
+}
+
+.spinner {
+  margin: 0 auto;
+}
