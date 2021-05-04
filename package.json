@@ -35,5 +35,8 @@
       "last 1 safari version"
     ]
   },
+    "engines": {
+    "node": "14.16.1"
+  },
   "proxy": "https://europe-west1-praise-connect-e64c5.cloudfunctions.net/api"
 }
